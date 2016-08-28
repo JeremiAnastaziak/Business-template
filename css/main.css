@@ -1,0 +1,503 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:light);
+@import url("screen.css") (min-width: 767px);
+
+body {
+  color:#3a3a3a;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+h1{
+  font-size: 4.0rem;
+    font-weight: 300;
+
+  letter-spacing: -.1rem;
+  line-height: 1.2;
+}
+h2{
+  font-size: 3.6rem;
+    font-weight: 300;
+
+  letter-spacing: -.1rem;
+  line-height: 1.25;
+}
+h3{
+  font-size: 3.0rem;
+    font-weight: 300;
+
+  letter-spacing: -.1rem;
+  line-height: 1.3;
+}
+h4{
+  font-size: 2.4rem;
+  letter-spacing: -.08rem;
+  line-height: 1.35;
+  font-weight: 300;
+}
+h5{
+  font-size: 1.8rem;
+    font-weight: 300;
+
+  letter-spacing: -.05rem;
+  line-height: 1.5;
+}
+h6{
+  font-size: 1.6rem;
+    font-weight: 300;
+
+  letter-spacing: 0;
+  line-height: 1.4;
+}
+
+p {
+  font-weight: 300;
+}
+
+// Larger than mobile screen
+@media (min-width: 40.0rem){
+
+  h1{
+    font-size: 5.0rem;
+      font-weight: 300;
+
+  }
+
+  h2{
+    font-size: 4.2rem;
+      font-weight: 300;
+
+  }
+
+  h3{
+    font-size: 3.6rem;
+      font-weight: 300;
+
+  }
+
+  h4{
+    font-size: 3.0rem;
+      font-weight: 300;
+
+  }
+
+  h5{
+    font-size: 2.4rem;
+      font-weight: 300;
+
+  }
+
+  h6{
+    font-size: 1.5rem;
+      font-weight: 300;
+
+  }
+}
+section {
+  padding: 30px 0;
+}
+nav li{
+  margin-right: 10px; 
+}
+ul {
+  list-style: none;
+}
+.shrink {
+  background-color: #00BCD4;
+  height: 65px;
+  padding: 5px 20px;
+  transition: all 0.4s ease;
+}
+.submit {
+  background-color: #00BCD4;
+  border: none;
+  border-radius: 25px;
+  font-size:2.0rem;
+  letter-spacing: 0.02em;
+  margin-top: 30px;
+  padding:10px 15px;
+  transition: all 0.3s ease 0s;
+}
+.submit:hover {
+  background-color: #17DFFB;
+  border: none;
+  border-radius: 25px; 
+  font-size:2.0rem;
+  letter-spacing: 0.02em;
+  margin-top: 30px;
+  padding:10px 15px;
+  transition: all 0.3s ease 0s;
+}
+.light-black {
+  color:#212121;
+}
+.accent {
+  color:#00BCD4;
+}
+.decoration {
+  text-align: center;
+      display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.decoration-square {
+    width: 1.4rem;
+    height: 1.4rem;
+    background: #00BCD4;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 2%;
+    float:left;
+}
+.decoration-line {
+  width: 30%;
+  height: .1rem;
+  margin: 2.5%;
+  float:left;
+  background: #B6B6B6;
+}
+header {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),url(../img/spotkanie3.jpg);
+   background-image: -moz-linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),url(../img/spotkanie3.jpg);
+   background-image: -webkit-linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+  ),url(../img/spotkanie3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 100% 100%;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  width:100%;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  box-sizing: inherit;
+}
+header h1 {
+  font-size: 6.0rem;
+  margin-top: 70px;
+}
+header .block__glyphicon {
+  color:#fff;
+  font-size: 3.0rem;
+  animation: bounce 1.5s infinite;
+  -moz-animation: bounce 1.5s infinite;
+  -webkit-animation: bounce 1.5s infinite;
+  padding-top:100px; 
+}
+header .block__glyphicon:hover {
+  cursor: pointer;
+}
+.description {
+  color:#000;
+  padding: 40px;
+}
+.description h2 {
+  padding: 20px;
+}
+.description__block__list__item {
+  font-size: 2.0rem;
+  padding: 5px;
+}
+
+.description .glyphicon {
+  color:#00BCD4;
+  font-size: 1.3em;
+  padding-right: 10px;
+}
+.circle {
+  padding-bottom: 30px;
+  border-top: 1px solid #e0e0e1;
+  border-bottom: 1px solid #e0e0e1;
+  background-color: #f7f8fa;
+}
+.circle__block__item {
+  padding:40px;
+  line-height: 150%;
+}
+.circle__block__item_icon {
+  color:#00BCD4;
+  font-size: 4.0em;
+}
+.benefits {
+  border-top: 1px solid #B6B6B6; 
+  border-bottom: 1px solid #B6B6B6;
+  background-image:url("../img/spotkanie2.jpg");
+  background-size: 100%;
+  padding: 30px;
+}
+.benefits__block {
+  border: 1px solid #B6B6B6;
+  background-color: #E3E3E3;
+  filter: alpha(opacity=95); /* For IE8 and earlier */
+  opacity: 0.95;
+  padding: 30px;
+}
+
+.benefits_block h3 {
+  color:#000;
+}
+
+.beneftis__block__icon {
+  color: #000;
+  font-size: 4.0rem;
+  padding:10px;
+}
+
+.developer__block {
+  padding-bottom: 30px;
+}
+.developer__block__brand img{
+  padding: 40px 0;
+  max-width: 100%;
+}
+.clients__block__item{
+  padding-top: 30px;
+  text-align: left;
+}
+.clients__block__item__icon{
+  color:#000;
+  display: inline-block;
+  padding: 10px;
+}
+.clients__block__item blockquote {
+  display: inline-block;
+  height: 14rem;
+}
+.clients__block__item figcaption {
+  text-align: right;
+}
+.clients__block__item figcaption p {
+  color: #aaaaaa;
+  padding-top: 10px;
+}
+.contact_block {
+  color: #fff;
+}
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+    background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    );
+     background-image: -moz-linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    );
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    );
+    color: #fff;
+    text-align: center;
+    padding: 110px 0px 10px 0px;
+}
+footer {
+  color:#aaaaaa;
+  background-color: #212121;
+  font-size: 1.5rem;
+  line-height: 1.55rem;
+  letter-spacing: 0.02em;
+  overflow-x: hidden;
+  padding: 0 10px;
+  padding-top: 30px;
+}
+
+footer .social-media {
+  cursor: default;
+  list-style: none;
+  font-size:2.0rem;
+  transition: all 0.3s ease;
+}
+footer li { 
+  padding: 5px;
+  display: inline;
+  left:-30px;
+}
+footer i:hover { 
+  color:#00BCD4;
+  cursor: pointer;
+  display: inline;
+}
+footer h5 {
+  color: #fff;
+  text-transform: uppercase;
+}
+footer p {
+  line-height: 1.5rem;
+}
+footer input, input:focus{
+  padding-top: 10px;
+  background-color: #212121;
+  border-radius: 6px;
+  border: 1px solid #aaaaaa;
+}
+footer .glyphicon {
+  font-size: 2em;
+  color:#00BCD4;
+}
+
+@media screen and (max-width: 768px) {
+  
+  
+    
+  body {
+    overflow-x: hidden;
+  }
+  
+  section {
+    padding:10px 0;
+  }
+  
+  ul {
+    list-style:none;
+  }
+  
+  header h1 {
+    font-size:4.5rem;
+  }
+  
+  .description{
+    width:100%;
+    padding: 20px;
+  }
+  
+  h3 {
+    font-size:2.5rem;
+  }
+  
+  .description h6 { 
+  display: inline-block; 
+  float:left;
+  }
+  .description__block__list {
+    display: inline-block;
+    padding-top: 10px;
+  }
+  .description .glyphicon {
+    float:left;
+    color:#00BCD4;
+    display: inline-block;
+    font-size: 1.3em;
+    padding-right: 10px;
+  }
+  
+  .circle__block__item {
+  padding:20px;
+  }
+  .circle__block__item h2 {
+    padding:0;
+  }
+  
+  .circle__block__item_icon {
+  font-size: 3.9rem;
+}
+  
+  .developer__block h4{
+  font-size:1.8rem;
+  }
+
+  .clients h4{
+  font-size:1.8rem;
+  }
+  .clients__block__item blockquote{
+    height:100%;
+    font-size:1.5rem;
+    line-height: 1.55rem;
+    
+  }
+  
+
+  .developer__block__brand img{
+  padding: 10px 0;
+}
+
+  nav li {
+    padding-left: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.4s ease;
+  }
+
+  nav li>.active, li:focus {
+    padding-left: 20px;
+    text-transform: uppercase;
+    background-color: #080808;
+  }
+
+   
+  nav li:hover {
+    background-color: #4B4B4B;
+  }
+
+  .navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+  }
+  
+  .benefits {
+    padding: 15px;
+  }
+  .benefits__block {
+    padding:5px;
+  }
+  
+  .developer__block h4 {
+    font-size: 20px;
+  }
+  
+
+  .small-hidden {
+    display: none;
+  }
+
+  .links .col-xs-4:frist-child {
+    padding-left:10px;
+  }
+
+  .service {
+    margin: 30px 10px;
+  }
+  .ok-box {
+    width:100%;
+  }
+
+  .parallax-window {
+    padding: 25px;
+  }
+
+  #works .col-xs-12:first-child {
+    margin:15px 0;
+  }
+
+  #works .col-xs-12:last-child {
+    display: none;
+  }
+
+}
+
