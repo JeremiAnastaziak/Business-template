@@ -287,7 +287,7 @@ header .block__glyphicon:hover {
 .clients__block__item blockquote {
   display: inline-block;
   height: 14rem;
-  font-size: 1.6rem;
+  font-size: 1.6rem;  
 }
 .clients__block__item figcaption {
   text-align: right;
