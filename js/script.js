@@ -1,22 +1,8 @@
   $(document).ready(function(){
 
-    
-
-    $(document).on("scroll resize",function() {
+    $(document).on("scroll resize", function() {
 
         $("nav").toggleClass("shrink", ($(this).scrollTop() > 50) && ($(window).width() > 750));
-
-        var scrollPos = $(document).scrollTop()+230;
-        $('.navbar-nav > li > a').each(function () {
-            var currLink = $(this);
-            var refElement = $(currLink.attr("href"));
-            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-                $('.navbar-nav > ul > li > a').removeClass("active");
-                currLink.addClass("active");
-            } else {
-                currLink.removeClass("active");
-            }
-        });
     });
 
     $(window).resize(function () { //put your code in window.resize so that it runs when ever window is resized
@@ -33,10 +19,8 @@
         }, 1500);
     });
 
-    //smoothscroll
     $('a[href^="#"]').on('click', function (event) {
         event.preventDefault();
-        $(document).off("scroll");
         
         $('a').each(function () {
             $(this).removeClass('active');
