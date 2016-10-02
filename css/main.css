@@ -180,15 +180,15 @@ header {
   background-image: linear-gradient(
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)
-  ),url(../img_min/spotkanie3.jpg);
+  ),url(../img/spotkanie3.jpg);
    background-image: -moz-linear-gradient(
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)
-  ),url(../img_min/spotkanie3.jpg);
+  ),url(../img/spotkanie3.jpg);
    background-image: -webkit-linear-gradient(
     rgba(0, 0, 0, 0.6),
     rgba(0, 0, 0, 0.6)
-  ),url(../img_min/spotkanie3.jpg);
+  ),url(../img/spotkanie3.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: 100% 100%;
@@ -270,7 +270,7 @@ header .block__glyphicon:hover {
 .benefits {
   border-top: 1px solid #B6B6B6; 
   border-bottom: 1px solid #B6B6B6;
-  background-image:url("../img_min/spotkanie2.jpg");
+  background-image:url("../img/spotkanie2.jpg");
   background-size: 100%;
   padding: 30px;
 }
